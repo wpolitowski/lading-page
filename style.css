@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap');
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -93,11 +93,6 @@ button {
     padding-bottom: 96px;
 }
 
-.image {
-    
-
-}
-
 h2 {
     font-size: 36px;
     font-weight: 900;
@@ -116,4 +111,25 @@ h2 {
     color: rgb(124, 124, 124);
     width: 200px;
     text-align: center;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    padding: 80px 200px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    text-align: justify;
+}
+
+.quote-section p {
+    color: #1f2937;
+}
+
+.quote-author {
+    font-weight: bold;
+    text-align: right;
 }
