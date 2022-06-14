@@ -71,9 +71,49 @@ button {
 
 .hero-image {
     color: lightgray;
-    background-color: darkgrey;
+    background-color: rgba(169, 169, 169, 0.418);
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+.info-section {
+    background-color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 48px;
+    padding-bottom: 96px;
+}
+
+.image {
+    
+
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+}
+
+.frame {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882f6;
+    border-radius: 20px;
+}
+
+.image p {
+    color: rgb(124, 124, 124);
+    width: 200px;
+    text-align: center;
 }
