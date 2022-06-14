@@ -156,9 +156,15 @@ h2 {
 
 h3 {
     margin: 0;
-    color: #f9faf8  
+    color: #f9faf8;
 }
 
 .call-to-action-text p {
     margin: 0;
+}
+
+
+footer {
+    padding: 8px;
+    text-align: center;
 }
